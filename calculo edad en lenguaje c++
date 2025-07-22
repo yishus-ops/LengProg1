@@ -1,0 +1,17 @@
+// Código del programa para verificar si una persona
+// es o no mayor de edad.
+// Autor: Jesus Teran
+// Fecha 22 de Julio de 2025
+#include <iostream>
+using namespace std;
+int main() {
+    int edad;
+    cout << "Ingresa tu edad: ";
+    cin >> edad;
+    if (edad >=18) {
+        cout << "¡Eres mayor de edad!Ya puedes votar, manejar y pagar impuestos" << endl;
+        } else {
+                cout << "Uy, chaval... Eres menor de edad. ¡A seguir tomando chocomilk!" << endl;
+        }
+        return 0;
+}
