@@ -1,0 +1,33 @@
+/*codigo que permite realizar 4 operaciones basicas, suma, resta, multiplicacion
+division. 
+Autor: Jesus Teran Diaz
+Fecha:28/07/2025
+*/
+
+#include <iostream>
+
+int main()
+{
+	float numero1, numero2;/* Declara dos variables flotantes para almacenar los números ingresados*/
+
+	std::cout <<"escribe el primer numero: ";/* Muestra mensaje al usuario*/
+	std::cin >> numero1;/* Lee el primer número desde el teclado*/
+	
+	std::cout << "escribe el segundo numero: "; /* Muestra mensaje al usuario*/
+
+	std::cin >> numero2;/* Lee el segundo número desde el teclado */
+	
+	float suma = numero1 + numero2;/* Realiza la suma */
+	float resta = numero1 - numero2;/* Realiza la resta */
+	float multiplicacion = numero1 * numero2;/* Realiza la multiplicacion */
+	float division = numero1 / numero2;/* Realiza la division */
+	
+	/* Se muestran los resultados en pantalla*/
+	
+	std::cout<< "la suma es: " <<suma << std::endl;
+	std::cout<< "la resta es: " <<resta << std::endl;
+	std::cout<< "la multiplicacion es: " <<multiplicacion << std::endl;
+	std::cout<< "la division es: " <<division << std::endl;
+	
+	return 0;
+}
